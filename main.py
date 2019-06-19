@@ -4,10 +4,10 @@ import lxml.html
 from selenium.webdriver import Chrome
 from selenium import webdriver
 client = discord.Client()
-TOKEN = 'NTExNjk1MDQxODc4NTU2Njk0.XP9KQw.p1blUZuBk6LURPQtGCytbozHYP8'
+TOKEN = ''
 @client.event
 async def on_ready():
-    channel = client.get_channel(556867669685567488)
+    channel = client.get_channel()
     await channel.send("ログインしました\n?helpでコマンド一覧を取得します\nコマンドは?のあとに入力してください")
 
 @client.event
