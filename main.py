@@ -1,8 +1,9 @@
+import os
 import discord
 import requests
 import lxml.html
 client = discord.Client()
-TOKEN = ''
+TOKEN = os.environ["BOT_TOKEN"]
 
 
 @client.event
